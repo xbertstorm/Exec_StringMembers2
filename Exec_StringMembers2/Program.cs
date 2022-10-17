@@ -148,6 +148,7 @@ namespace Exec_StringMembers2
 			string result = phone.Substring(0, 4) + new string('*', 4) + phone.Substring(8);
 
 			Console.WriteLine(result);
+
 		}
 	}
 }
